@@ -1,0 +1,7 @@
+FROM python:3.13.11-slim
+
+run pip install pandas sqlalchemy psycopg2-binary pyarrow
+
+COPY ingest_data.py .
+
+ENTRYPOINT ["python", "ingest_data.py"]
