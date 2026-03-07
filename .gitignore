@@ -1,4 +1,6 @@
 *.parquet
+*.parquet.crc
+06-batch/rep/*
 dtc-de-course-484822-0c2dcdccac3d.json
 .env_encoded
 # Local .terraform directories
